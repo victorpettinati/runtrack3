@@ -9,7 +9,7 @@
   
   <script>
     // Appel de la fonction jourtravaille avec une date donnée
-    var date = new Date("2023-07-03"); // Exemple de date à tester
+    var date = new Date("2020-05-01"); // Exemple de date à tester
     jourtravaille(date);
   </script>
 </body>
