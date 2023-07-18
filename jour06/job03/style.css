@@ -1,0 +1,36 @@
+.section{
+    background-color: #88c1d0;
+    width: 400px;
+    height: 150px;
+    border: 1px solid #000;
+}
+
+
+@media (min-width: 1600px) {
+    body {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1599px) {
+    body {
+        display: flex;
+        /* justify-content: center; */
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    body {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 30px;
+    }
+}
