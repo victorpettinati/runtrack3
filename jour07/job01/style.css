@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(175, 175, 175);
+}
+
+.nav{
+    background: whitesmoke;
+    align-items: baseline;
+}
+
+h1{
+    text-align: center;
+}
+
+.col-4{
+    background-color: red;
+}
+
+.jumbotron{
+    background-color: rgb(224, 224, 224);
+    border-radius: 0.5rem;
+    padding: 15px;
+}
+
+.btn-lg {
+    background-color: red;
+    border: none;
+}
+
+.list-group{
+    width: 70%
+}
+
+.pagination{
+    justify-content: end;
+}
+
+
