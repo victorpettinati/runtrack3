@@ -18,12 +18,16 @@ h1{
 .jumbotron{
     background-color: rgb(224, 224, 224);
     border-radius: 0.5rem;
-    padding: 15px;
+    padding: 35px;
 }
 
 .btn-lg {
     background-color: red;
     border: none;
+}
+
+.btn-lg:hover{
+    background-color: black;
 }
 
 .list-group{
